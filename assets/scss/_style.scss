@@ -73,10 +73,20 @@ body {
             text-align: center;
             padding: 40px 0px;
 
+            .img__arrowDown {
+                display: none;
+            }
+
             @media only screen and (max-width: 991px) {
                 margin: auto;
-                max-width: 363px;
+                max-width: 400px;
                 padding: 40px 20px;
+
+                .img__arrowDown {
+                    display: block;
+                    margin: auto;
+                    height: 13px;
+                }
             }
 
             h4 {
@@ -377,7 +387,7 @@ body {
                 @media only screen and (max-width: 991px) {
                     font-size: 23px;
                     line-height: 22.34px;
-                    max-width: 394.3291px;
+                    max-width: 365px;
                     margin: auto;
                 }
 
