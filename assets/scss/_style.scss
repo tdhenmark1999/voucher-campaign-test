@@ -137,9 +137,30 @@ body {
                     width: 100%;
                     margin: auto;
 
+                    .mb__txtTitle {
+                        display: none;
+                    }
+
                     @media only screen and (max-width: 991px) {
                         max-width: 457px;
                         padding: 0px 20px;
+
+                        .mb__txtTitle {
+                            display: block;
+                            font-family: $fontCamdenSlab;
+                            font-weight: 400;
+                            color: white;
+                            font-size: 24px;
+                            line-height: 22.34px;
+                            max-width: 360px;
+                            margin: 40px auto 0px;
+
+                            strong {
+                                font-weight: 700;
+                            }
+
+
+                        }
                     }
 
 
@@ -151,6 +172,10 @@ body {
                     .form__container {
                         margin-top: 80px;
 
+                        @media only screen and (max-width: 991px) {
+                            margin-top: 60px;
+                        }
+
                         .form-group {
                             margin-bottom: 20px;
 
@@ -161,6 +186,11 @@ body {
                                 font-weight: 700;
                                 line-height: 18px;
                                 text-transform: uppercase;
+
+                                @media only screen and (max-width: 991px) {
+                                    font-size: 18px;
+                                    line-height: 21.6px;
+                                }
                             }
 
                             input {
@@ -263,6 +293,8 @@ body {
                                     line-height: 14.4px;
                                     color: white;
 
+
+
                                 }
                             }
                         }
@@ -286,6 +318,11 @@ body {
                                 -moz-border-radius: 0px;
                                 -ms-border-radius: 0px;
                                 -o-border-radius: 0px;
+
+                                @media only screen and (max-width: 991px) {
+                                    font-size: 18px;
+                                    line-height: 22px;
+                                }
                             }
                         }
 
@@ -296,6 +333,11 @@ body {
                             font-weight: 500;
                             line-height: 18px;
                             margin-bottom: 30px;
+
+                            @media only screen and (max-width: 991px) {
+                                font-size: 18px;
+                                line-height: 21.6px;
+                            }
                         }
 
                         .txt__desc {
@@ -304,6 +346,11 @@ body {
                             color: white;
                             font-weight: 500;
                             line-height: 14.4px;
+
+                            @media only screen and (max-width: 991px) {
+                                font-size: 14px;
+                                line-height: 16.8px;
+                            }
                         }
                     }
 
