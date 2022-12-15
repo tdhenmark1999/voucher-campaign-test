@@ -1,4 +1,4 @@
-# INSTRUCTION ON THE TEST
+# INSTRUCTIONS
 ## The layout should meet the following criteria:
 
 1. On desktop, the layout should be center aligned in the viewport
